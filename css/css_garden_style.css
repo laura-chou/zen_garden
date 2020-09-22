@@ -350,3 +350,32 @@ footer a:visited {
    top: 10%;
    left: 25%;
 }
+
+@media (min-width:1000px) and (max-width:1600px){
+   body{
+      font-size: 20px;
+   }
+   .participation{
+      font-size: 18px;
+   }
+   .requirements{
+      font-size: 15px;
+   }
+   .sidebar .wrapper {
+      font-size: 13px;
+   }
+}
+@media (max-width:1000px){
+   body{
+      font-size: 18px;
+   }
+   .participation{
+      font-size: 16px;
+   }
+   .requirements{
+      font-size: 13px;
+   }
+   .sidebar .wrapper {
+      font-size: 12px;
+   }
+}
